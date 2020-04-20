@@ -1,8 +1,10 @@
 function init(){
 
 var input = document.getElementById('entryinput');
+
 var button = document.getElementById('entrybutton');
-var output = document.getElementById('textoutput');
+
+var display = document.getElementById('textoutput');
 
 
 button.addEventListener('click', function(){

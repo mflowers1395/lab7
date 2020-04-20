@@ -1,9 +1,16 @@
 function init(){
-  const buttonElement = document.getElementById('btn');
-  
-  buttonElement.addEventListener('click', function (event) {
-    alert('Element clicked through function!');
-  });
+
+var input = document.getElementById('entryinput');
+var button = document.getElementById('entrybutton');
+var output = document.getElementById('textoutput');
+
+
+button.addEventListener('click', function(){
+  output.innerHTML = input.value;
+  alert('Marilyn Elaine Flowers: ' + input.value)
+});
+
+}
 
 
 

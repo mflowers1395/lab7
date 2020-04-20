@@ -11,7 +11,7 @@ function alertFunction(){
 }
 
 function outputFunction(){
-  display.innerHTML = input.value;
+  output.innerHTML = input.value;
 }
 
 button.addEventListener('click', alertFunction);

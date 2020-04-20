@@ -1,15 +1,9 @@
 function init(){
 
-function myEventFunction(){
+  function myEventFunction(){
     alert('Hello Marilyn');
   }
-
-  var d4 = document.getElementById('div4');
-  d4.addEventListener('click', myEventFunction);
-  d4.addEventListener('click', function(){
-    console.log('I was clicked!');
-    
-  }
+  var d2 = document.getElementById('div2');
   d2.onclick = myEventFunction;
 
 
@@ -18,6 +12,7 @@ function myEventFunction(){
 
 
 
-}
+
+
 
 window.addEventListener('load', init);

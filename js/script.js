@@ -1,6 +1,6 @@
 function init(){
 
-  function myEventFunction(){
+function myEventFunction(){
     alert('Hello Marilyn');
   }
 
@@ -13,6 +13,6 @@ function init(){
 
 
 
-
+}
 
 window.addEventListener('load', init);

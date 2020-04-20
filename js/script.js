@@ -1,6 +1,6 @@
 function init(){
 
-var message = document.getElementById('entryinput');
+var input = document.getElementById('entryinput');
 
 var name = document.getElementsByClassName('center') [1];
 
@@ -10,11 +10,11 @@ var output = document.getElementById('textoutput');
 
 
 function alertFunction(){
-  alert(name.textContent + ': ' + message.value);
+  alert(name.textContent + ': ' + input.value);
 }
 
 function outputFunction(){
-  display.innerHTML = message.value;
+  display.innerHTML = input.value;
 }
 
 button.addEventListener('click', outputFunction);

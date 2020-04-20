@@ -6,7 +6,7 @@ var name = document.getElementsByClassName('center') [1];
 var output = document.getElementById('textoutput');
 
 
-function alertFunction(){
+function alertingFunction(){
   alert(name.textContent + ': ' + input.value);
 }
 
@@ -14,7 +14,7 @@ function outputFunction(){
   output.innerHTML = input.value;
 }
 
-button.addEventListener('click', alertFunction);
+button.addEventListener('click', alertingFunction);
 button.addEventListener('click', outputFunction);
 }
 

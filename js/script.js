@@ -10,12 +10,12 @@ function alertingFunction(){
   alert(name.textContent + ': ' + input.value);
 }
 
-function outputFunction(){
+function displayFunction(){
   output.innerHTML = input.value;
 }
 
 button.addEventListener('click', alertingFunction);
-button.addEventListener('click', outputFunction);
+button.addEventListener('click', displayFunction);
 }
 
 

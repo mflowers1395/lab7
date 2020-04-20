@@ -6,16 +6,16 @@ var name = document.getElementsByClassName('center') [1];
 var output = document.getElementById('textoutput');
 
 
-function alertingFunction(){
+function cakeFunction(){
   alert(name.textContent + ': ' + input.value);
 }
 
-function displayFunction(){
+function icecreamFunction(){
   output.innerHTML = input.value;
 }
 
-button.addEventListener('click', alertingFunction);
-button.addEventListener('click', displayFunction);
+button.addEventListener('click', cakeFunction);
+button.addEventListener('click', icecreamFunction);
 }
 
 

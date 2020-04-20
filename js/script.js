@@ -1,11 +1,8 @@
 function init(){
 
 var input = document.getElementById('entryinput');
-
-var name = document.getElementsByClassName('center') [1];
-
 var button = document.getElementById('entrybutton');
-
+var name = document.getElementsByClassName('center') [1];
 var output = document.getElementById('textoutput');
 
 
@@ -17,15 +14,9 @@ function outputFunction(){
   display.innerHTML = input.value;
 }
 
+button.addEventListener('click', alertFunction);
 button.addEventListener('click', outputFunction);
-button.addEventListener('click'), alertFunction);
 }
-
-
-
-
-
-
 
 
 window.addEventListener('load', init);

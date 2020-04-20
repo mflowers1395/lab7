@@ -9,16 +9,16 @@ var button = document.getElementById('entrybutton');
 var output = document.getElementById('textoutput');
 
 
-function alertsFunction(){
+function alertFunction(){
   alert(name.textContent + ': ' + message.value);
 }
 
-function displayFunction(){
+function outputFunction(){
   display.innerHTML = message.value;
 }
 
-button.addEventListener('click', displayFunction);
-button.addEventListener('click'), alertsFunction);
+button.addEventListener('click', outputFunction);
+button.addEventListener('click'), alertFunction);
 }
 
 

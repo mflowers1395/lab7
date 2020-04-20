@@ -4,7 +4,12 @@ function myEventFunction(){
     alert('Hello Marilyn');
   }
 
-  var d2 = document.getElementById('div2');
+  var d4 = document.getElementById('div4');
+  d4.addEventListener('click', myEventFunction);
+  d4.addEventListener('click', function(){
+    console.log('I was clicked!');
+    
+  }
   d2.onclick = myEventFunction;
 
 

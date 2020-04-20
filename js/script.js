@@ -4,7 +4,7 @@ var input = document.getElementById('entryinput');
 
 var button = document.getElementById('entrybutton');
 
-var display = document.getElementById('textoutput');
+var output = document.getElementById('textoutput');
 
 
 button.addEventListener('click', function(){
